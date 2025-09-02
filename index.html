@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FM | Simple Omelette Recipe site</title>
+  <!-- Google Fonts Young sherif and outfit-->
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap"
+    rel="stylesheet">
+  <style>
+    body {
+      background-color: rgb(243, 229, 216, 1);
+    }
+
+    p {
+      margin: 0;
+      font-family: "Outfit", sans-serif;
+      font-size: 11px;
+      line-height: 1.5em;
+      color: rgb(119, 119, 119);
+    }
+
+    h1 {
+      font-family: "Young Serif", serif;
+      font-weight: 400;
+    }
+
+    hr {
+      border: none;
+      height: 1px;
+      background-color: #dbdbdb;
+    }
+
+    .preparation-time>h3 {
+      font-family: "Outfit", sans-serif;
+      color: #7b284f;
+      margin: 11px 7px;
+    }
+
+    span {
+      font-weight: bold;
+      color: #575757;
+    }
+
+    .main-container {
+      max-width: 500px;
+      margin: 80px auto;
+      padding: 20px;
+      background-color: aliceblue;
+      border-radius: 10px;
+    }
+
+    .img-container>img {
+      height: 40%;
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .preparation-time {
+      background-color: #f8f0f4;
+      border-radius: 10px;
+      padding: 10px;
+      margin-top: 20px;
+    }
+
+    .preparation-time>ul {
+      padding: 0px;
+      margin: 0px 17px;
+      list-style-type: disc;
+    }
+
+    ul li::marker {
+      font-size: 0.6em;
+      color: #555;
+    }
+
+    li>p {
+      margin: 0px 0px 5px 14px;
+    }
+
+    .ingredients-section,
+    .instructions-section,
+    .nutrition-section>h3 {
+      color: rgb(123, 76, 65, 1);
+    }
+
+    .instructions-section>ol li {
+      font-size: 12px;
+      line-height: 1rem;
+    }
+
+    .instructions-section>ol {
+      padding: 2px 14px;
+    }
+
+    ol li::marker {
+      color: rgb(123, 76, 65, 1);
+      font-weight: bold;
+      font-family: "Outfit", sans-serif;
+    }
+
+    td {
+      font-family: "Outfit", sans-serif;
+      font-size: 12px;
+    }
+
+    .table-value {
+      color: #7b284f;
+      font-weight: bold;
+      padding: 7px;
+    }
+
+    td {
+      padding: 8px;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    td {
+      padding: 8px;
+    }
+
+    tr {
+      border-bottom: 1px solid #ccc;
+    }
+
+    /* optional: remove last row line */
+    tr:last-child {
+      border-bottom: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="main-container">
+    <div class="img-container">
+      <img src="image-omelette.jpeg" alt="image-omelette">
+    </div>
+    <h1>Simple Omelette Recipe</h1>
+    <p>An easy and quick dish, perfect for any meal. This classic Omelette combines beaten eggs </p>
+    <p>cooked for perfection, optionally filled with your choice of cheese, vegitables or meats.</p>
+    <div class="preparation-time">
+      <h3>Preparation time</h3>
+      <ul>
+        <li>
+          <p><span>Total</span>:Approximately 10 minutes</p>
+        </li>
+        <li>
+          <p><span>Preparation</span>: 5 minutes</p>
+        </li>
+        <li>
+          <p><span>Cooking</span>: 5 minutes</p>
+        </li>
+      </ul>
+    </div>
+    <div class="ingredients-section">
+      <h3>Ingredients</h3>
+      <ul>
+        <li>
+          <p>2-3 large eggs</p>
+        </li>
+        <li>
+          <p>salt, to taste</p>
+        </li>
+        <li>
+          <p>Pepper, to taste</p>
+        </li>
+        <li>
+          <p>1 table spoon of butter or oil</p>
+        </li>
+        <li>
+          <p>Optional fillings: cheese, diced vegitables, cooked meets, herbs</p>
+        </li>
+      </ul>
+    </div>
+    <hr>
+    <div class="instructions-section">
+      <h3>Instructions</h3>
+      <ol>
+        <li>
+          <p><span> Beat the eggs</span>: In a bowl,beat the eggs with the pinch of salt and sugar untill they are
+            well mixed.You can add a tablespoon of water or milk for a fluffier texture</p>
+        </li>
+        <li>
+          <p> <span>Heat the pan</span>: Place a non-stick frying pan over medium heat and add butter or oil</p>
+        </li>
+        <li>
+          <p><span>Cook the omelette</span>: Once the butter is melted and bubbling, pour in the eggs.Tilt the
+            pan to ensure the eggs evenly coat the surface.</p>
+        </li>
+        <li>
+          <p><span> Add fillings (optional)</span>: When the eggs begin to set at the edges but are still slightly
+            runny in the middle,sprinkle your chosen fillings over one half of the omelette.</p>
+        </li>
+        <li>
+          <p><span>Fold and serve</span>: As the omelette continues to cook, carefully lift one edge and fold it
+            over the fillings. Let it cook for another minute, then slide it onto a plate.</p>
+        </li>
+        <li>
+          <p><span>Enjoy</span>: Serve hot, with additional salt and pepper if needed.</p>
+        </li>
+      </ol>
+    </div>
+    <hr>
+    <div class="nutrition-section">
+      <h3>Nutrition</h3>
+      <p>The table below shows the nutritional values per serving without the additional filling</p>
+      <table>
+        <tbody>
+          <tr>
+            <td>calories</td>
+            <td class="table-value">227kcal</td>
+          </tr>
+          <tr>
+            <td>carbs</td>
+            <td class="table-value">0g</td>
+          </tr>
+          <tr>
+            <td>protien</td>
+            <td class="table-value">20g</td>
+          </tr>
+          <tr>
+            <td>fat</td>
+            <td class="table-value">22g</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+
+</html>
